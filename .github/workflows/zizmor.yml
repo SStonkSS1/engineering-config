@@ -1,0 +1,35 @@
+name: GitHub Actions Security (zizmor)
+
+on:
+  workflow_call:
+  pull_request:
+    branches:
+      - main
+
+permissions: {}
+
+concurrency:
+  group: zizmor-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  zizmor:
+    name: zizmor
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Run zizmor
+        uses: zizmorcore/zizmor-action@3dc1ecc9bcb9e94e9b2c709687979e1298497054 # v0.6.2
+        with:
+          version: v1.29.0
+          advanced-security: false
+          annotations: true
+          fail-on-no-inputs: false
+          persona: regular
+          online-audits: true
