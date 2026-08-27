@@ -34,16 +34,18 @@ on:
     branches:
       - main
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
   zizmor:
-    uses: SStonkSS1/engineering-config/.github/workflows/zizmor.yml@<FULL_COMMIT_SHA>
+    uses: SStonkSS1/engineering-config/.github/workflows/zizmor.yml@<FULL_COMMIT_SHA> # main
+    permissions:
+      contents: read
 ```
 
-Replace `<FULL_COMMIT_SHA>` with the current full commit SHA of the `main` branch in this repository.
+The `# main` comment provides the branch lineage hint required by Renovate to track and propose automated SHA updates over time.
 
-## Sharing Access
+## Visibility & Sharing Rationale
 
-This repository is private. Sharing is enabled via GitHub Actions settings:
-- **Access Level:** `Accessible from repositories owned by the user 'SStonkSS1'` (`access_level: "user"`).
+This repository is public to permit unauthenticated `impostor-commit` audits by zizmor across private repositories without requiring cross-repository personal access tokens. It contains strictly generic, non-sensitive workflow automation.
