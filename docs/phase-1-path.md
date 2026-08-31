@@ -8,6 +8,7 @@ GITHUB PLAN: personal; REST `user.plan` is null and marketplace purchases are em
 RULESETS AVAILABLE: yes (repository). no (user/org: GET /user/rulesets 404)
 REQUIRED WORKFLOWS AVAILABLE: no (org-level required ruleset workflows require a GitHub organization)
 CHOSEN ENFORCEMENT MODEL: reusable+required-check
+EVALUATE MODE: unsupported on this GitHub plan (API 422: Enterprise only). New rulesets stay disabled until Active is justified; existing Active zizmor required checks were left in place.
 SEMGREP ORG ADMIN: no (no GitHub org; Managed Scans private-app registration requires GitHub organization admin)
 SEMGREP APPS: public= no  private= no
 ACTIONS ALLOWLIST BLOCKS ZIZMOR: no (all inventoried repos: allowed_actions=all)
