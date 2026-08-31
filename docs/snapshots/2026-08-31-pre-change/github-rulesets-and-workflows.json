@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-08-31",
+  "owner": "SStonkSS1",
+  "repos": {
+    "Dwellori": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\n  \u001b[1;37m{\u001b[m\n    \u001b[1;34m\"id\"\u001b[m\u001b[1;37m:\u001b[m 21624444\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"name\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"GitHub Actions Security\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"target\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"branch\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source_type\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"Repository\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"SStonkSS1/Dwellori\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"enforcement\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"active\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"node_id\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"RRS_lACqUmVwb3NpdG9yec5KxdvBzgFJ9nw\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"_links\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n      \u001b[1;34m\"self\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://api.github.com/repos/SStonkSS1/Dwellori/rulesets/21624444\"\u001b[m\n      \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n      \u001b[1;34m\"html\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://github.com/SStonkSS1/Dwellori/rules/21624444\"\u001b[m\n      \u001b[1;37m}\u001b[m\n    \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"created_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:00:43.212-04:00\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"updated_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:00:43.234-04:00\"\u001b[m\n  \u001b[1;37m}\u001b[m\n\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    },
+    "sierracc": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\n  \u001b[1;37m{\u001b[m\n    \u001b[1;34m\"id\"\u001b[m\u001b[1;37m:\u001b[m 21624815\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"name\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"GitHub Actions Security\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"target\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"branch\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source_type\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"Repository\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"SStonkSS1/sierracc\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"enforcement\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"active\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"node_id\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"RRS_lACqUmVwb3NpdG9yec5JBJJSzgFJ9-8\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"_links\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n      \u001b[1;34m\"self\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://api.github.com/repos/SStonkSS1/sierracc/rulesets/21624815\"\u001b[m\n      \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n      \u001b[1;34m\"html\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://github.com/SStonkSS1/sierracc/rules/21624815\"\u001b[m\n      \u001b[1;37m}\u001b[m\n    \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"created_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:08:53.556-04:00\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"updated_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:08:53.566-04:00\"\u001b[m\n  \u001b[1;37m}\u001b[m\n\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    },
+    "stonks-dashboard": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\n  \u001b[1;37m{\u001b[m\n    \u001b[1;34m\"id\"\u001b[m\u001b[1;37m:\u001b[m 21624814\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"name\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"GitHub Actions Security\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"target\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"branch\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source_type\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"Repository\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"SStonkSS1/stonks-dashboard\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"enforcement\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"active\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"node_id\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"RRS_lACqUmVwb3NpdG9yec5IXIbkzgFJ9-4\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"_links\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n      \u001b[1;34m\"self\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://api.github.com/repos/SStonkSS1/stonks-dashboard/rulesets/21624814\"\u001b[m\n      \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n      \u001b[1;34m\"html\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://github.com/SStonkSS1/stonks-dashboard/rules/21624814\"\u001b[m\n      \u001b[1;37m}\u001b[m\n    \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"created_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:08:53.144-04:00\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"updated_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:08:53.155-04:00\"\u001b[m\n  \u001b[1;37m}\u001b[m\n\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    },
+    "taskmoor": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\n  \u001b[1;37m{\u001b[m\n    \u001b[1;34m\"id\"\u001b[m\u001b[1;37m:\u001b[m 21624818\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"name\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"GitHub Actions Security\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"target\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"branch\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source_type\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"Repository\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"source\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"SStonkSS1/taskmoor\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"enforcement\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"active\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"node_id\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"RRS_lACqUmVwb3NpdG9yec5In5RVzgFJ9_I\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"_links\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n      \u001b[1;34m\"self\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://api.github.com/repos/SStonkSS1/taskmoor/rulesets/21624818\"\u001b[m\n      \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n      \u001b[1;34m\"html\"\u001b[m\u001b[1;37m:\u001b[m \u001b[1;37m{\u001b[m\n        \u001b[1;34m\"href\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"https://github.com/SStonkSS1/taskmoor/rules/21624818\"\u001b[m\n      \u001b[1;37m}\u001b[m\n    \u001b[1;37m}\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"created_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:08:53.969-04:00\"\u001b[m\u001b[1;37m,\u001b[m\n    \u001b[1;34m\"updated_at\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"2026-08-27T01:08:53.978-04:00\"\u001b[m\n  \u001b[1;37m}\u001b[m\n\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    },
+    "piccolo-os": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    },
+    "renovate-config": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    },
+    "engineering-config": {
+      "private": null,
+      "default_branch": null,
+      "actions_permissions": {
+        "raw": "\u001b[1;37m{\u001b[m\n  \u001b[1;34m\"enabled\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mtrue\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"allowed_actions\"\u001b[m\u001b[1;37m:\u001b[m \u001b[32m\"all\"\u001b[m\u001b[1;37m,\u001b[m\n  \u001b[1;34m\"sha_pinning_required\"\u001b[m\u001b[1;37m:\u001b[m \u001b[33mfalse\u001b[m\n\u001b[1;37m}\u001b[m\n"
+      },
+      "rulesets": {
+        "raw": "\u001b[1;37m[\u001b[m\u001b[1;37m]\u001b[m\n"
+      },
+      "workflows": []
+    }
+  }
+}

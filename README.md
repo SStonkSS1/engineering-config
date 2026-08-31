@@ -15,7 +15,7 @@ Runs [zizmor](https://github.com/zizmorcore/zizmor) to audit GitHub Actions work
 #### Security Invariants
 
 - **Full SHA Pinning:** All third-party GitHub Actions are pinned by immutable full commit SHA.
-- **Explicit Analyzer Version:** The `zizmor` engine version is explicitly pinned (e.g., `v1.29.0`) rather than floating on `latest`.
+- **Explicit Analyzer Version:** The `zizmor` engine version is explicitly pinned (currently `v1.30.0`) rather than floating on `latest`.
 - **Least Privilege:** Top-level workflow permissions default to `{}` with only `contents: read` granted at the job level.
 - **Safe Checkout:** Checkout explicitly disables persistent credentials (`persist-credentials: false`).
 - **No Privileged Execution:** Runs purely on `pull_request` (or `workflow_call`); never uses `pull_request_target`.
@@ -49,3 +49,11 @@ The `# main` comment provides the branch lineage hint required by Renovate to tr
 ## Visibility & Sharing Rationale
 
 This repository is public to permit unauthenticated `impostor-commit` audits by zizmor across private repositories without requiring cross-repository personal access tokens. It contains strictly generic, non-sensitive workflow automation.
+
+Current pins (resolved from GitHub Releases at rollout, not copied from older README examples):
+
+- `actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1` # v7.0.1
+- `zizmorcore/zizmor-action@70fb788f84895a7701f5643d103d587e460b5c99` # v0.6.3
+- zizmor analyzer `version: v1.30.0`
+
+See `docs/phase-1-path.md` and `docs/rollback.md`.
